@@ -1,0 +1,2 @@
+# GCAN / ECAN / Rexon USBCANI-V503
+SUBSYSTEM=="usb", ATTR{idVendor}=="0c66", ATTR{idProduct}=="000c", MODE="0666", GROUP="plugdev", TAG+="uaccess"

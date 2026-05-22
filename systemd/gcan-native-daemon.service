@@ -1,0 +1,11 @@
+# Placeholder for future daemon service
+# Current repository includes CLI tool only.
+[Unit]
+Description=GCAN Native Daemon Placeholder
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/gcan-native-daemon
+
+[Install]
+WantedBy=multi-user.target

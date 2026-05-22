@@ -1,0 +1,6 @@
+build/
+*.o
+*.so
+*.log
+*.tar.gz
+.DS_Store
